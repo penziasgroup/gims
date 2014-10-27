@@ -1,0 +1,30 @@
+/*
+Custom CSS styles that override base theme go here.
+*/
+
+.header-block {
+  padding-right:20%;
+}
+
+.schedule-block .views-field-field-dates-times-1 {
+  width:25%;
+}
+
+.front .hero-copy, 
+.front .hero-title,
+.page-faculty .hero-copy, 
+.page-faculty .hero-title {
+  display:none;
+}
+
+.front .views-field-field-hero-image,
+.page-faculty .views-field-field-hero-image {
+  width:100%;
+  margin:0;
+  float:none;
+}
+
+.page-venue .region-sidebar-first .block-content p a,
+.page-venue .field-name-body p a {
+  color:#0000FF;
+}
